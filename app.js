@@ -24,8 +24,4 @@ for(var counter = 1; counter <= userInput; counter++) {
 	}
 }
 
-var evalInteger = function(){
-	if(userInput = NaN){
-	userInput = +prompt("Enter a number");
-}
 });
