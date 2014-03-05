@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+var userInput = prompt("Enter a number");
+
 for(var counter = 1; counter <= 100; counter++) {
 	if (counter % 3 == 0) {
 		if (counter % 5 == 0) {	
