@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 var userInput = +prompt("Enter a number");
 
-while(userInput === NaN) {
+while(userInput === "NaN") {
 	userInput = +prompt("Enter a number");
 }
 
