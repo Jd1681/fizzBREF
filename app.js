@@ -2,9 +2,9 @@ $(document).ready(function(){
 
 var userInput = +prompt("Enter a number");
 
-while(userInput = NaN) {
+if(userInput = "NaN") {
 	userInput = +prompt("Enter a number");
-	}
+	};
 
 for(var counter = 1; counter <= userInput; counter++) {
 	if (counter % 3 == 0) {
